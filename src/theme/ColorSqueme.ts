@@ -57,7 +57,7 @@ const Palettes = {
     t95: '#EDF0FF',
     t98: '#F9F9FF',
     t99: '#FEFBFF',
-    t10: '#FFFFFF',
+    t100: '#FFFFFF',
   },
   neutral: {
     t0: '#000000',
@@ -99,6 +99,12 @@ const Palettes = {
     t99: '#F6FEFF',
     t100: '#FFFFFF',
   },
+  error: {
+    error: '#FFB4AB',
+    onError: '#690005',
+    errorContainer: '#93000A',
+    onErrorContainer: '#FFDAD6',
+  },
 };
 
 const Colors = {
@@ -110,10 +116,10 @@ const Colors = {
   onSecondary: Palettes.secondary,
   secondaryContainer: Palettes.secondary,
   onSecondaryContainer: Palettes.secondary,
-  error: Palettes.error,
-  onError: Palettes.error600,
-  errorContainer: Palettes.error,
-  onErrorContainer: Palettes.error,
+  error: Palettes.error.error,
+  onError: Palettes.error.onError,
+  errorContainer: Palettes.error.errorContainer,
+  onErrorContainer: Palettes.error.onErrorContainer,
   background: Palettes.neutral.t5,
   onBackground: Palettes.neutral.t99,
   surface: Palettes.neutral.t5,
