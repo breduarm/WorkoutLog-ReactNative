@@ -1,12 +1,12 @@
 const basicUnit = 8 // in pixels
 
 const Spacing = {
-  space8: 1 * basicUnit,
-  space16: 2 * basicUnit,
-  space24: 3 * basicUnit,
-  space32: 4 * basicUnit,
-  space40: 5 * basicUnit,
-  space48: 6 * basicUnit,
+  px8: 1 * basicUnit,
+  px16: 2 * basicUnit,
+  px24: 3 * basicUnit,
+  px32: 4 * basicUnit,
+  px40: 5 * basicUnit,
+  px48: 6 * basicUnit,
 };
 
 const a = Spacing.space16
