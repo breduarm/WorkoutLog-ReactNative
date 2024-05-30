@@ -1,6 +1,6 @@
 import React from 'react';
-import {Pressable, SafeAreaView, Text, StyleSheet} from 'react-native';
-import globalStyles from './../styles/global';
+import {SafeAreaView, Text, StyleSheet} from 'react-native';
+import globalStyles from '../styles';
 import Spacing from '../theme/Spacing';
 import WLButton from '../components/WLButton';
 

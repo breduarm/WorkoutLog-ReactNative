@@ -3,7 +3,7 @@ import Colors from '../theme/ColorSqueme';
 import FontSize from '../theme/FontSize';
 import Spacing from '../theme/Spacing';
 
-const styles = StyleSheet.create({
+const globalStyles = StyleSheet.create({
   surfaceContainer: {
     backgroundColor: '#000',
     paddingStart: Spacing.px24,
@@ -37,4 +37,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default styles;
+export default globalStyles;
