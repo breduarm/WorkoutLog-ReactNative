@@ -1,14 +1,9 @@
 import React from 'react';
-import {
-  SafeAreaView,
-  Text,
-} from 'react-native';
+import WelcomeScreen from './screens/WelcomeScreen';
 
 function App(): React.JSX.Element {
   return (
-    <SafeAreaView>
-      <Text>Welcome to WorkoutLog App!!!</Text>
-    </SafeAreaView>
+    <WelcomeScreen />
   );
 }
 

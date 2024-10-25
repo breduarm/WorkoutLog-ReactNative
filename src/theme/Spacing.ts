@@ -9,6 +9,6 @@ const Spacing = {
   px48: 6 * basicUnit,
 };
 
-const a = Spacing.space16
+const a = Spacing.px16
 
 export default Spacing;
